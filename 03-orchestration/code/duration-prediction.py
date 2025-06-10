@@ -12,7 +12,7 @@ from sklearn.metrics import root_mean_squared_error
 
 import mlflow
 
-mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
 mlflow.set_experiment("nyc-taxi-experiment")
 
 models_folder = Path('models')
@@ -37,6 +37,7 @@ def read_dataframe(year, month):
     return df
 
 
+# feature engineering
 def create_X(df, dv=None):
     categorical = ['PU_DO']
     numerical = ['trip_distance']

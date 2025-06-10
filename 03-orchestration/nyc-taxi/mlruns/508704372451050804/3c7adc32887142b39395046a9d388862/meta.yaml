@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/ioanatiriac/Apple MacBook/Documents - Ioana’s MacBook
+  Pro/MLOps Zoomcamp/mlops-zoomcamp/03-orchestration/nyc-taxi/mlruns/508704372451050804/3c7adc32887142b39395046a9d388862/artifacts
+end_time: 1749585801288
+entry_point_name: ''
+experiment_id: '508704372451050804'
+lifecycle_stage: active
+run_id: 3c7adc32887142b39395046a9d388862
+run_name: big-skink-873
+run_uuid: 3c7adc32887142b39395046a9d388862
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749585801281
+status: 3
+tags: []
+user_id: ioanatiriac
